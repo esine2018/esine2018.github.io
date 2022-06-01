@@ -116,7 +116,6 @@ footer .footer_container{
 
 footer .footer_container .sec{
   margin-right: 30px;
-  margin-left: 150px;
 }
 
 footer .footer_container .sec.aboutus{
@@ -132,16 +131,6 @@ footer .footer_container h2{
   color: aliceblue;
   font-weight: 500;
   margin-bottom: 15px;
-}
-
-footer .footer_container h2:before{
-  content: '';
-  position: absolute;
-  bottom: -5px;
-  left: 0;
-  width: 50px;
-  height: 2px;
-  background: darkgray;
 }
 
 footer .sci{
@@ -195,15 +184,19 @@ footer ul{
 footer .contact {
   width: calc(35% - 60px);
   margin-right: 0 !important;
+  text-align: center;
 }
 
 footer .contact .info{
-  position: relative;
+  justify-content: center;
+  list-style-type:none;
+  display: block;
+  text-align: center;
 }
 
 footer .contact .info li{
-  display: flex;
-  margin-bottom: 16px;
+  display: block;
+  margin: 0 3px;
 }
 
 footer .contact .info li span:nth-child(1){
